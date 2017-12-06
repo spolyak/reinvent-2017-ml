@@ -1,0 +1,13 @@
+.white h2,blockquote {
+	color: white !important;
+}
+.black h2,blockquote {
+	color: black !important;
+}
+.back2::before {
+	background: rgba(0,0,0,.2) !important;
+}
+
+.back7::before {
+	background: rgba(0,0,0,.2) !important;
+}

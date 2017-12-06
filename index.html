@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>ACTLabs: 2016 ACT Summer Camp</title>
+
+	<meta name="description" content="A presentation on ACTLabs prototype">
+	<meta name="author" content="Steve Polyak">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="css/reveal.min.css">
+	<link rel="stylesheet" href="css/theme/simple.css" id="theme">
+
+	<!-- For syntax highlighting -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+	<script>
+		if( window.location.search.match( /print-pdf/gi ) ) {
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = 'css/print/pdf.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		}
+	</script>
+	<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+</head>
+
+<body>
+
+
+	<div class="reveal">
+		<div class="slides">
+			<section data-markdown >
+				<script type="text/template">
+					# **ACT** ![ACTLabs](img/labs.png)
+					## 2016 Summer Camp
+					### Volta Racers!
+					* Date: 21,22-Jul-2016
+					* Presenter: Steve Polyak
+				</script>
+				<aside class="notes">
+
+				</aside>
+			</section>
+
+			<section  data-markdown >
+				<script type="text/template">
+					<video controls src="img/volta.mp4"></video>
+				</script>
+				<aside class="notes">
+				</aside>
+			</section>
+			
+			<section  data-markdown >
+				<script type="text/template">
+					## Agenda
+					<p>Talk about solar power</p>
+					<p>You will build a car</p>
+					<p>Try them out</p>					
+					# ![ACTLabs](img/labs-small.png)
+				</script>
+				<aside class="notes">
+				</aside>
+			</section>
+			<section data-markdown data-background="img/pok2.gif">
+				## Question
+			</section>	
+			<section  data-markdown >
+				<script type="text/template">
+					<img src="img/sun.png">
+					<p>Can we take direct sunlight and convert it into electricity to power a race car?</p>
+
+					# ![ACTLabs](img/labs-small.png)
+				</script>
+				<aside class="notes">
+				</aside>
+			</section>
+			<section  data-markdown >
+				<script type="text/template">
+					<p>How much power do we need?</p>
+					<p>How light will the car need to be?</p>
+					<p>Are there ways to make the car go faster?</p>					
+					# ![ACTLabs](img/labs-small.png)
+				</script>
+				<aside class="notes">
+				</aside>
+			</section>
+			<section data-markdown>
+			 <script type="text/template">
+			 <p>Motor</p>
+			    <img src="img/v4.jpg"/>
+			    </script>
+			</section>	
+			<section data-markdown >
+			  <script type="text/template">
+			    <img src="img/batter_circuit_001.gif"/>
+			    </script>
+			</section>	
+			<section class="stack" data-markdown data-background="img/v1.jpg">
+			</section>	
+			<section data-markdown>
+			 <script type="text/template">
+			 <p>1794 polycrystalline spheres in concentrators</p>
+			    <img src="img/v2.jpg"/>
+			    </script>
+			</section>		
+			
+			<section data-markdown>
+			 <script type="text/template">
+			 <p>Positive=Red/Negative=Black</p>
+			    <img src="img/v3.jpg"/>
+			    </script>
+			</section>	
+					
+			<section data-markdown>
+			 <script type="text/template">
+			 <p>How much power?</p>
+			    <img src="img/v6.jpg"/>
+			    </script>
+			</section>
+			<section data-markdown>
+			 <script type="text/template">
+			 <p>Solar power vs. Battery </p>
+			    <img src="img/v5.jpg"/>
+			    </script>
+			</section>
+			<section data-markdown data-background="img/embed_volta.gif">
+				## Lightweight
+				<p>foam, straws, bamboo</p>
+			</section>
+
+			<section data-markdown>
+			 <script type="text/template">
+			 <p>Speed tweaks</p>
+			    <img src="img/v7.jpg"/>
+			  </script>
+			</section>
+
+			<section data-markdown>
+			 <script type="text/template">
+			 <p>Speed tweaks</p>
+			    <img src="img/v8.png"/>
+			  </script>
+			</section>
+
+			<section data-markdown>
+			 <script type="text/template">
+			 ## Some things:
+			 <p>Measure the solar voltage vs. battery voltage</p>
+			 <p>Unplug red wire when not using</p>
+			 <p>Write your initials on the car</p>
+			    <img src="img/v9.jpg"/>
+			  </script>
+			</section>
+
+
+			</section>														
+			<section>
+				<h2> Go go go! </h2>
+
+				<img src="img/thanks.png">
+			</section>
+		</div>
+	</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+
+<script>
+
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+	controls: true,
+	progress: true,
+	history: true,
+	center: true,
+
+	theme: 'blood',// Reveal.getQueryHash().theme, // available themes are in /css/theme
+	transition: Reveal.getQueryHash().transition || 'page', // default/cube/page/concave/zoom/linear/fade/none
+	multiplex: {
+        // Example values. To generate your own, see the socket.io server instructions.
+        secret: '13967773486226648665', // Obtained from the socket.io server. Gives this (the master) control of the presentation
+        id: 'c6dc216ec61365eb', // Obtained from socket.io server
+        url: 'revealjs.jit.su:80' // Location of socket.io server
+    },
+    math: {
+    	mathjax: 'http://cdn.mathjax.org/mathjax/latest/MathJax.js',
+    	config: 'TeX-AMS_HTML-full' // See http://docs.mathjax.org/en/latest/config-files.html
+	},
+	// Parallax scrolling
+	// parallaxBackgroundImage: 'img/om.jpg',
+	// parallaxBackgroundSize: '2100px 900px',
+	// Optional libraries used to extend on reveal.js
+	dependencies: [
+		{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+		{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+		{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+		{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+		{ src: '//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.10/socket.io.min.js', async: true },
+		{ src: 'plugin/multiplex/master.js', async: true },
+
+        // and if you want speaker notes
+        //{ src: 'plugin/notes-server/client.js', async: true },
+        { src: 'plugin/math/math.js', async: true }
+	]
+});
+
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  MathML: {
+    extensions: ["content-mathml.js"]
+  }
+});
+</script>
+
+
+</body>
+</html>
